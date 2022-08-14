@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/treade-manages",
+      "handler": "treade-manage.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/treade-manages/count",
+      "handler": "treade-manage.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/treade-manages/:id",
+      "handler": "treade-manage.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/treade-manages",
+      "handler": "treade-manage.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/treade-manages/:id",
+      "handler": "treade-manage.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/treade-manages/:id",
+      "handler": "treade-manage.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
