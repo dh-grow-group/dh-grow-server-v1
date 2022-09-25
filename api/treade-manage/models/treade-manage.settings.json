@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "treade_manages",
+  "info": {
+    "name": "treade-manage"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "rank": {
+      "type": "string"
+    },
+    "info": {
+      "type": "object"
+    }
+  }
+}

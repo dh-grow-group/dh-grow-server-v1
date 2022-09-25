@@ -1,0 +1,27 @@
+{
+    "connection": "default",
+    "collectionName": "hits",
+    "info": {
+        "name": "hit",
+        "description": ""
+    },
+    "options": {
+        "increments": true,
+        "timestamps": true,
+        "comment": ""
+    },
+    "attributes": {
+        "count": {
+            "type": "integer"
+        },
+        "date": {
+            "type": "date"
+        },
+        "name": {
+            "type": "string"
+        },
+        "rank": {
+            "type": "integer"
+        }
+    }
+}
