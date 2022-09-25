@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_test_tests",
+  "info": {
+    "name": "test",
+    "icon": "address-card"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    }
+  }
+}
